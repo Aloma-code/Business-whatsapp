@@ -1,0 +1,332 @@
+.pad{
+    padding: 0px 50px;
+}
+
+.whatsapp{
+    width: 25px;
+}
+
+.big_text{
+    font-size: 20px;
+}
+
+.small_text{
+    font-size: 17px;
+}
+
+.world{
+    width: 20px;
+}
+
+.down_arrow{
+    width: 30px;
+}
+
+.search{
+    width: 18px;
+    background-color: #7ABA78;
+    padding: 15px;
+    border-radius: 100%;
+}
+
+.get{
+    background-color: #7ABA78;
+    padding: 10px 30px;
+    border-radius: 50px;
+    
+}
+
+.app{
+    background-color: white;
+    padding: 10px 30px;
+    border-radius: 50px;
+   
+}
+
+.gap{
+    gap: 40px;
+}
+
+.gap_gap{
+    gap: 30px;
+}
+
+.menu{
+    width: 30px;
+    display: block;
+}
+
+.flex{
+    display: none;
+}
+
+.flex_two{
+    display: none;
+}
+
+.line_one{
+    display: flex; 
+    align-items: center;
+    justify-content: space-between; 
+    background-color: #0A6847; 
+    padding: 20px;
+}
+
+.white{
+    color: white;
+}
+
+.green{
+   color:rgba(100,205,138,1);
+}
+
+.pro{
+    background-color: rgba(100,205,138,1) ;
+    border-radius: 30px;
+    padding: 20px 40px;
+    width: 50%;
+    text-align: center;
+}
+
+.bigger_text{
+    font-size: 60px;
+}
+
+.two_colum{
+    display: grid;
+    grid-template-columns: 100%;
+    gap: 30px;
+}
+
+.image{
+    width: 100%;
+    padding: 50px 0px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.image_two{
+    width: 350px;
+    padding: 50px 0px;
+    border-radius: 10px;
+}
+
+.background_color_one{
+    background-color: #0A6847; 
+    padding: 80px; 
+    align-items: center;
+}
+
+.medium_text{
+    font-size: 40px;
+}
+
+.half_size{
+    font-size: 20px;
+}
+
+.section_gap{
+    margin-top: 80px;
+}
+
+.line{
+    text-decoration: underline rgba(100,205,138,1) ;
+}
+
+.style{
+    display: grid; 
+    justify-content: center;
+}
+
+.image_size{
+    width: 50px;
+}
+
+.right_arrow{
+    width: 23px;
+    border: 2px solid rgba(100,205,138,1); 
+    border-radius: 100%; 
+    padding: 1px;
+}
+
+.center{
+    align-items: center; 
+    display: flex; 
+    gap: 10px;
+    margin-top: 60px;
+}
+
+.container{
+    border: 1px solid #E7F0DC; 
+    border-radius: 30px; 
+    padding: 20px 30px;
+    box-shadow: 10px 5px #E7F0DC ;
+    
+}
+
+.pad_two{
+    padding: 0px 30px;
+}
+
+.responsive_two_colum{
+    display: grid; 
+    grid-template-columns: 100%;
+    gap: 30px;
+}
+
+.cross{
+    display: flex; 
+    align-items: center; 
+}
+
+.new_text{
+    font-size: 30px;
+}
+
+.choose_text{
+    font-size: 50px;
+}
+
+.arrow_arrow{
+    display: flex; 
+    justify-content: flex-end;
+}
+
+.bank_mandiri{
+    align-items: center; 
+    background-color: #cce9bf; 
+    border-radius: 20px;
+}
+
+.mandiri{
+    width: 100%;
+}
+
+.share{
+    padding: 30px 30px;
+}
+
+.platform{
+    display: grid; 
+    justify-content: center; 
+    background-color: #0A6847;
+    border-radius: 20px;
+}
+
+.policy{
+    display: grid; 
+    align-items: center; 
+    background-color: rgba(100,205,138,1);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 600px) {
+    .pro{
+        width: 30%;
+    }
+    .image{
+        width: 450px;
+    }
+    .policy{
+        display: flex; 
+        align-items: center; 
+        background-color: rgba(100,205,138,1);
+    }
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  @media only screen and (min-width: 992px) {
+    .flex{
+       display: flex;
+    }
+    .flex_two{
+       display: flex; 
+       align-items: center;
+    }
+    .menu{
+        display: none;
+    }
+    .two_colum{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        gap: 50px;
+    }
+    .responsive_two_colum{
+        display: grid; 
+        grid-template-columns: 50% 50%; 
+        gap: 40px;
+    }
+    .container{
+        border: 1px solid #E7F0DC; 
+        border-radius: 30px; 
+        padding: 50px 60px;
+        box-shadow: 10px 5px #E7F0DC ;
+    }
+    .pad_two{
+        padding: 0px 90px;
+    }
+    .bank_mandiri{
+        align-items: center; 
+        background-color: #cce9bf; 
+        margin-left: 70px;
+        margin-right: 70px;
+        border-radius: 20px;
+    }
+    .share{
+        padding: 50px 50px;
+    }
+    .mandiri{
+        width: 500px;
+        height: 400px;
+        object-fit: cover;
+    }
+    .platform{
+        display: grid; 
+        justify-content: center; 
+        background-color: #0A6847;
+        margin-left: 50px;
+        margin-right: 50px;
+        border-radius: 20px;
+    }
+  }
